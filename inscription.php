@@ -4,12 +4,13 @@
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <script language="JavaScript">
  function verif() {
-	 if (document.getElementById("NP").value == "") { alert("Veuillez taper votre nom et prenom!"); return false; }
-	 if (document.getElementById("cin").value == "") { alert("Veuillez taper votre CIN!"); return false; }
+	if (document.getElementById("cin").value == "") { alert("Veuillez taper votre CIN!"); return false; }
 	 var v = 1;
 	 var taille = document.getElementById("cin").value.length;
 	 for (i = 0; i < taille;i++) { if( taille != "8") v = -1;}
 	 if (v == -1) {alert("Le numero de votre CIN est incorrect!"); return false; }
+	 if (document.getElementById("NP").value == "") { alert("Veuillez taper votre nom et prenom!"); return false; }
+	
  
  if (document.getElementById("eml").value == "") { alert("Veuillez entrer votre adresse email!"); return false;}
  if (document.getElementById("eml").value.indexOf('@') == -1) { alert("Adresse e-mail incorrecte!"); return false; }
