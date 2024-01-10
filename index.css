@@ -1,0 +1,147 @@
+	html { 
+	background: url(fond_jaune.png);
+	margin-left:40px;
+	margin-top:10px;
+	color:black;
+	}
+	#zozor{ 
+	font-family:"Lucida Handwriting"; 
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	}
+	#zoz{ 
+	margin-top: 20px;
+	margin-bottom: 0px;
+	border-radius: 10px;
+	
+	}
+	
+	#cv{
+	font-family:"Courier New";
+	margin-top: 0px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	}
+	
+	
+	
+	nav{
+	margin-right: 30px;
+	margin-bottom:0px ;}
+
+	header a{
+	color:black;
+	font-size:20px;
+	text-decoration: none;
+		}
+		
+	header ul{ margin:0;
+		padding:0;
+		margin-right:30px;}
+		
+	header li {
+		display:inline;
+		padding:0px 10px 0px 10px;
+		float:right;
+	}
+	
+	
+	#spr{ margin-bottom:10px ;}
+	
+	
+	
+	
+	
+	#div7{ text-align:justify;
+	
+	display:inline-block;
+	float: left;
+	width:500px;
+	color:black;
+		}
+			
+	#div4{ margin-left:450px;
+	padding-left:20px;
+	text-align:center;
+	color:white;
+	margin-right:10px;
+	display:block}
+	
+	
+	#globale{
+    width: 900px;
+    margin: auto;
+			}
+			
+	#ins{ text-align: center;}
+	
+    a:hover{color:#ff0000;
+	text-decoration:underline  ;}
+    #div6{text-align:center;}
+
+
+	.img{ border-radius: 50px;}
+	
+	.bc{color:black;}
+	
+
+	
+	
+	#div2 img{ 
+		padding:0px 10px 0px 10px;
+		display:inline;
+		float: left;
+		border-radius: 50px;
+	}
+	
+	
+	#div3{ 
+	margin-left:50px;
+	text-align:justify;
+	display:inline-block;
+	float: left;
+	width:200px;
+	text-align:center;
+	}
+	
+	#div4{ margin-left:100px;
+	margin-right:10px;
+	display:block;
+	float: left;
+	width:200px;
+	color:black;}
+	
+	#button{ text-align:center;
+	background-color:black;
+	border-radius: 5px;
+	color:white;
+	font-family:"kawit extended";
+	font-size:17px;}
+	
+	#div5{ margin-left:100px;
+	display:block;
+	float: left;
+	width:200px;
+	text-align:center;
+	}
+
+	
+	table{color:white;}
+
+
+		#search-container {
+            text-align: center;
+            margin: 20px;
+        }
+
+        #search-box {
+            padding: 10px;
+            width: 300px;
+            font-size: 16px;
+        }
+
+        #search-button {
+            padding: 10px;
+            font-size: 16px;
+        }
